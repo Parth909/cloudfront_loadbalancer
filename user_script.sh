@@ -12,9 +12,9 @@ export NVM_DIR="/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"	
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" 
 #upgrade yum
-sudo yum upgrade
+sudo apt update && sudo apt upgrade
 #install git
-sudo yum install git -y
+sudo apt install git -y
 cd /home/ec2-user
 # get source code from githubt
 git clone https://github.com/Parth909/cloudfront_loadbalancer
