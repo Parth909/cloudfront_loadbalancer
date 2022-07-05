@@ -8,7 +8,7 @@ time {
 
 sudo apt update
 
-# sudo apt upgrade -y :- Causes the script to quit after this command
+# sudo apt upgrade -y :- Causes the script to exit after this command
 
 sudo apt install curl -y
 
@@ -27,9 +27,9 @@ cd /home/ubuntu
 
 echo "===> Cloning the app"
 # get source code from github
-git clone https://github.com/felixyu9/auto-scaling-nodejs-app
+git clone https://github.com/Parth909/cloudfront_loadbalancer
 #get in project dir
-cd auto-scaling-nodejs-app
+cd cloudfront_loadbalancer
 #give permission
 sudo chmod -R 755 .
 #install node module
